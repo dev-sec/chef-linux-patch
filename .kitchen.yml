@@ -1,0 +1,39 @@
+---
+driver:
+  name: ec2
+  aws_ssh_key_id: pmuench-sva
+  security_group_ids: ["sg-1a10ab73"]
+  region: eu-central-1
+  require_chef_omnibus: true
+  vpc_id: vpc-d94faab0
+  subnet_id: subnet-7db8bc05
+  instance_type: m3.large
+  associate_public_ip: true
+  interface: dns
+
+transport:
+  ssh_key: /home/user/.ssh/pmuench-sva.pem
+  connection_timeout: 10
+  connection_retries: 5
+  username: ubuntu
+
+provisioner:
+  name: chef_zero
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: ubuntu-16.04
+    driver:
+      image_id: ami-1e339e71
+suites:
+  - name: default
+    data_bags_path: "test/integration/data_bags"
+    run_list:
+      - recipe[update-linux::default]
+    attributes:
+    verifier:
+      inspec_tests:
+        - https://github.com/dev-sec/linux-patch-baseline
+        #- ./test/integration/default/linux-patch-baseline
