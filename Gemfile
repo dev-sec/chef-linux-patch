@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 
 gem 'berkshelf', '~> 6.1'
 gem 'chef', '~> 12.5' # chefspec builds get stucked with 13.1
-gem 'kitchen-ec2'
 
 group :test do
   gem 'chefspec', '~> 7.1.0'
@@ -23,6 +22,7 @@ group :development do
 end
 
 group :integration do
+  gem 'kitchen-ec2'
   gem 'kitchen-dokken'
   gem 'kitchen-inspec'
   gem 'kitchen-vagrant'
