@@ -1,0 +1,664 @@
+{
+  "generator": {
+    "name": "patcher",
+    "version": "0.1.0"
+  },
+  "packages": [
+    {
+      "name": "apparmor",
+      "version": "2.10.95-0ubuntu2.7"
+    },
+    {
+      "name": "apport",
+      "version": "2.20.1-0ubuntu2.10"
+    },
+    {
+      "name": "apt",
+      "version": "1.2.24"
+    },
+    {
+      "name": "apt-transport-https",
+      "version": "1.2.24"
+    },
+    {
+      "name": "apt-utils",
+      "version": "1.2.24"
+    },
+    {
+      "name": "base-files",
+      "version": "9.4ubuntu4.5"
+    },
+    {
+      "name": "bash",
+      "version": "4.3-14ubuntu1.2"
+    },
+    {
+      "name": "bind9-host",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "binutils",
+      "version": "2.26.1-1ubuntu1~16.04.5"
+    },
+    {
+      "name": "bsdutils",
+      "version": "1:2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "btrfs-tools",
+      "version": "4.4-1ubuntu1"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "20170717~16.04.1"
+    },
+    {
+      "name": "cloud-initramfs-copymods",
+      "version": "0.27ubuntu1.4"
+    },
+    {
+      "name": "cloud-initramfs-dyn-netconf",
+      "version": "0.27ubuntu1.4"
+    },
+    {
+      "name": "coreutils",
+      "version": "8.25-2ubuntu3~16.04"
+    },
+    {
+      "name": "cpp-5",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "cryptsetup",
+      "version": "2:1.6.6-5ubuntu2.1"
+    },
+    {
+      "name": "cryptsetup-bin",
+      "version": "2:1.6.6-5ubuntu2.1"
+    },
+    {
+      "name": "curl",
+      "version": "7.47.0-1ubuntu2.3"
+    },
+    {
+      "name": "distro-info-data",
+      "version": "0.28ubuntu0.3"
+    },
+    {
+      "name": "dnsmasq-base",
+      "version": "2.75-1ubuntu0.16.04.3"
+    },
+    {
+      "name": "dnsutils",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "dpkg",
+      "version": "1.18.4ubuntu1.2"
+    },
+    {
+      "name": "eject",
+      "version": "2.1.5+deb1+cvs20081104-13.1ubuntu0.16.04.1"
+    },
+    {
+      "name": "gcc-5",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "gcc-5-base",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "git",
+      "version": "1:2.7.4-0ubuntu1.3"
+    },
+    {
+      "name": "git-man",
+      "version": "1:2.7.4-0ubuntu1.3"
+    },
+    {
+      "name": "grub-common",
+      "version": "2.02~beta2-36ubuntu3.12"
+    },
+    {
+      "name": "grub-legacy-ec2",
+      "version": "0.7.9-233-ge586fe35-0ubuntu1~16.04.2"
+    },
+    {
+      "name": "grub-pc",
+      "version": "2.02~beta2-36ubuntu3.12"
+    },
+    {
+      "name": "grub-pc-bin",
+      "version": "2.02~beta2-36ubuntu3.12"
+    },
+    {
+      "name": "grub2-common",
+      "version": "2.02~beta2-36ubuntu3.12"
+    },
+    {
+      "name": "iproute2",
+      "version": "4.3.0-1ubuntu3.16.04.1"
+    },
+    {
+      "name": "isc-dhcp-client",
+      "version": "4.3.3-5ubuntu12.7"
+    },
+    {
+      "name": "isc-dhcp-common",
+      "version": "4.3.3-5ubuntu12.7"
+    },
+    {
+      "name": "kmod",
+      "version": "22-1ubuntu5"
+    },
+    {
+      "name": "less",
+      "version": "481-2.1ubuntu0.2"
+    },
+    {
+      "name": "libapparmor-perl",
+      "version": "2.10.95-0ubuntu2.7"
+    },
+    {
+      "name": "libapparmor1",
+      "version": "2.10.95-0ubuntu2.7"
+    },
+    {
+      "name": "libapt-inst2.0",
+      "version": "1.2.24"
+    },
+    {
+      "name": "libapt-pkg5.0",
+      "version": "1.2.24"
+    },
+    {
+      "name": "libasan2",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libasn1-8-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libatomic1",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libbind9-140",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libblkid1",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "libc-bin",
+      "version": "2.23-0ubuntu9"
+    },
+    {
+      "name": "libc-dev-bin",
+      "version": "2.23-0ubuntu9"
+    },
+    {
+      "name": "libc6",
+      "version": "2.23-0ubuntu9"
+    },
+    {
+      "name": "libc6-dev",
+      "version": "2.23-0ubuntu9"
+    },
+    {
+      "name": "libcc1-0",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libcilkrts5",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libcryptsetup4",
+      "version": "2:1.6.6-5ubuntu2.1"
+    },
+    {
+      "name": "libcurl3-gnutls",
+      "version": "7.47.0-1ubuntu2.3"
+    },
+    {
+      "name": "libdns-export162",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libdns162",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libdpkg-perl",
+      "version": "1.18.4ubuntu1.2"
+    },
+    {
+      "name": "libdrm2",
+      "version": "2.4.76-1~ubuntu16.04.1"
+    },
+    {
+      "name": "libexpat1",
+      "version": "2.1.0-7ubuntu0.16.04.3"
+    },
+    {
+      "name": "libfdisk1",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "libfreetype6",
+      "version": "2.6.1-0.1ubuntu2.3"
+    },
+    {
+      "name": "libgcc-5-dev",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libgcrypt20",
+      "version": "1.6.5-2ubuntu0.3"
+    },
+    {
+      "name": "libgnutls-openssl27",
+      "version": "3.4.10-4ubuntu1.3"
+    },
+    {
+      "name": "libgnutls30",
+      "version": "3.4.10-4ubuntu1.3"
+    },
+    {
+      "name": "libgomp1",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libgssapi3-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libhcrypto4-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libheimbase1-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libheimntlm0-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libhx509-5-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libicu55",
+      "version": "55.1-7ubuntu0.2"
+    },
+    {
+      "name": "libidn11",
+      "version": "1.32-3ubuntu1.2"
+    },
+    {
+      "name": "libisc-export160",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libisc160",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libisccc140",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libisccfg140",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "libitm1",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libkmod2",
+      "version": "22-1ubuntu5"
+    },
+    {
+      "name": "libkrb5-26-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libldap-2.4-2",
+      "version": "2.4.42+dfsg-2ubuntu3.2"
+    },
+    {
+      "name": "liblsan0",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "liblwres141",
+      "version": "1:9.10.3.dfsg.P4-8ubuntu1.8"
+    },
+    {
+      "name": "liblxc1",
+      "version": "2.0.8-0ubuntu1~16.04.2"
+    },
+    {
+      "name": "libmount1",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "libmpx0",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libmspack0",
+      "version": "0.5-1ubuntu0.16.04.1"
+    },
+    {
+      "name": "libnl-3-200",
+      "version": "3.2.27-1ubuntu0.16.04.1"
+    },
+    {
+      "name": "libnl-genl-3-200",
+      "version": "3.2.27-1ubuntu0.16.04.1"
+    },
+    {
+      "name": "libpam-systemd",
+      "version": "229-4ubuntu19"
+    },
+    {
+      "name": "libpci3",
+      "version": "1:3.3.1-1.1ubuntu1.1"
+    },
+    {
+      "name": "libplymouth4",
+      "version": "0.9.2-3ubuntu13.2"
+    },
+    {
+      "name": "libpython3.5",
+      "version": "3.5.2-2ubuntu0~16.04.3"
+    },
+    {
+      "name": "libpython3.5-minimal",
+      "version": "3.5.2-2ubuntu0~16.04.3"
+    },
+    {
+      "name": "libpython3.5-stdlib",
+      "version": "3.5.2-2ubuntu0~16.04.3"
+    },
+    {
+      "name": "libquadmath0",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libroken18-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "librtmp1",
+      "version": "2.4+20151223.gitfa8646d-1ubuntu0.1"
+    },
+    {
+      "name": "libsmartcols1",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "libssl-dev",
+      "version": "1.0.2g-1ubuntu4.8"
+    },
+    {
+      "name": "libssl1.0.0",
+      "version": "1.0.2g-1ubuntu4.8"
+    },
+    {
+      "name": "libstdc++6",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libsystemd0",
+      "version": "229-4ubuntu19"
+    },
+    {
+      "name": "libtasn1-6",
+      "version": "4.7-3ubuntu0.16.04.2"
+    },
+    {
+      "name": "libtsan0",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libubsan0",
+      "version": "5.4.0-6ubuntu1~16.04.5"
+    },
+    {
+      "name": "libudev1",
+      "version": "229-4ubuntu19"
+    },
+    {
+      "name": "libuuid1",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "libwind0-heimdal",
+      "version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    },
+    {
+      "name": "libxml2",
+      "version": "2.9.3+dfsg1-1ubuntu0.3"
+    },
+    {
+      "name": "linux-firmware",
+      "version": "1.157.12"
+    },
+    {
+      "name": "linux-libc-dev",
+      "version": "4.4.0-97.120"
+    },
+    {
+      "name": "locales",
+      "version": "2.23-0ubuntu9"
+    },
+    {
+      "name": "login",
+      "version": "1:4.2-3.1ubuntu5.3"
+    },
+    {
+      "name": "logrotate",
+      "version": "3.8.7-2ubuntu2.16.04.2"
+    },
+    {
+      "name": "lxc-common",
+      "version": "2.0.8-0ubuntu1~16.04.2"
+    },
+    {
+      "name": "lxcfs",
+      "version": "2.0.7-0ubuntu1~16.04.2"
+    },
+    {
+      "name": "lxd",
+      "version": "2.0.10-0ubuntu1~16.04.2"
+    },
+    {
+      "name": "lxd-client",
+      "version": "2.0.10-0ubuntu1~16.04.2"
+    },
+    {
+      "name": "makedev",
+      "version": "2.3.1-93ubuntu2~ubuntu16.04.1"
+    },
+    {
+      "name": "mdadm",
+      "version": "3.3-2ubuntu7.4"
+    },
+    {
+      "name": "mount",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "multiarch-support",
+      "version": "2.23-0ubuntu9"
+    },
+    {
+      "name": "nfs-common",
+      "version": "1:1.2.8-9ubuntu12.1"
+    },
+    {
+      "name": "open-iscsi",
+      "version": "2.0.873+git0.3b4b4500-14ubuntu3.4"
+    },
+    {
+      "name": "openssh-client",
+      "version": "1:7.2p2-4ubuntu2.2"
+    },
+    {
+      "name": "openssh-server",
+      "version": "1:7.2p2-4ubuntu2.2"
+    },
+    {
+      "name": "openssh-sftp-server",
+      "version": "1:7.2p2-4ubuntu2.2"
+    },
+    {
+      "name": "openssl",
+      "version": "1.0.2g-1ubuntu4.8"
+    },
+    {
+      "name": "overlayroot",
+      "version": "0.27ubuntu1.4"
+    },
+    {
+      "name": "passwd",
+      "version": "1:4.2-3.1ubuntu5.3"
+    },
+    {
+      "name": "pciutils",
+      "version": "1:3.3.1-1.1ubuntu1.1"
+    },
+    {
+      "name": "plymouth",
+      "version": "0.9.2-3ubuntu13.2"
+    },
+    {
+      "name": "plymouth-theme-ubuntu-text",
+      "version": "0.9.2-3ubuntu13.2"
+    },
+    {
+      "name": "python3-apport",
+      "version": "2.20.1-0ubuntu2.10"
+    },
+    {
+      "name": "python3-distupgrade",
+      "version": "1:16.04.22"
+    },
+    {
+      "name": "python3-problem-report",
+      "version": "2.20.1-0ubuntu2.10"
+    },
+    {
+      "name": "python3-software-properties",
+      "version": "0.96.20.7"
+    },
+    {
+      "name": "python3-update-manager",
+      "version": "1:16.04.9"
+    },
+    {
+      "name": "python3.5",
+      "version": "3.5.2-2ubuntu0~16.04.3"
+    },
+    {
+      "name": "python3.5-minimal",
+      "version": "3.5.2-2ubuntu0~16.04.3"
+    },
+    {
+      "name": "snap-confine",
+      "version": "2.27.5"
+    },
+    {
+      "name": "snapd",
+      "version": "2.27.5"
+    },
+    {
+      "name": "software-properties-common",
+      "version": "0.96.20.7"
+    },
+    {
+      "name": "sosreport",
+      "version": "3.4-1~ubuntu16.04.1"
+    },
+    {
+      "name": "sudo",
+      "version": "1.8.16-0ubuntu1.5"
+    },
+    {
+      "name": "systemd",
+      "version": "229-4ubuntu19"
+    },
+    {
+      "name": "systemd-sysv",
+      "version": "229-4ubuntu19"
+    },
+    {
+      "name": "tcpdump",
+      "version": "4.9.2-0ubuntu0.16.04.1"
+    },
+    {
+      "name": "ubuntu-core-launcher",
+      "version": "2.27.5"
+    },
+    {
+      "name": "ubuntu-release-upgrader-core",
+      "version": "1:16.04.22"
+    },
+    {
+      "name": "udev",
+      "version": "229-4ubuntu19"
+    },
+    {
+      "name": "uidmap",
+      "version": "1:4.2-3.1ubuntu5.3"
+    },
+    {
+      "name": "unattended-upgrades",
+      "version": "0.90ubuntu0.8"
+    },
+    {
+      "name": "update-manager-core",
+      "version": "1:16.04.9"
+    },
+    {
+      "name": "update-notifier-common",
+      "version": "3.168.5"
+    },
+    {
+      "name": "util-linux",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "uuid-runtime",
+      "version": "2.27.1-6ubuntu3.3"
+    },
+    {
+      "name": "vlan",
+      "version": "1.9-3.2ubuntu1.16.04.4"
+    },
+    {
+      "name": "wget",
+      "version": "1.17.1-1ubuntu1.2"
+    },
+    {
+      "name": "xfsprogs",
+      "version": "4.3.0+nmu1ubuntu1.1"
+    },
+    {
+      "name": "zlib1g",
+      "version": "1:1.2.8.dfsg-2ubuntu4.1"
+    },
+    {
+      "name": "zlib1g-dev",
+      "version": "1:1.2.8.dfsg-2ubuntu4.1"
+    }
+  ]
+}

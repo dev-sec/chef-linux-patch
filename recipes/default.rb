@@ -20,15 +20,13 @@
 # limitations under the License.
 #
 
-package_hash = data_bag_item('packagelist', 'update')
-
-packagelist = []
-package_hash['controls'].drop(1).each do |key, _array|
-  packagelist.push(key['code_desc'].split(' ')[2])
-end
-
 apt_update 'update'
 
-package packagelist do
-  action :upgrade
-end
+package_hash = data_bag_item('patch-profile', 'packages')
+
+package_hash['packages'].each { |package|
+  package package['name'] do
+    version package['version']
+    action :install
+  end
+}
