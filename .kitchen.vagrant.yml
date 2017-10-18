@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+verifier:
+  name: inspec
+  format: json
+  output: '%{platform}_%{suite}_inspec.json'
+
+platforms:
+  - name: ubuntu-16.04
+
+suites:
+  - name: default
+    data_bags_path: "test/integration/data_bags"
+    run_list:
+      - recipe[update-linux::default]
+    attributes:
+    verifier:
+      inspec_tests:
+        - https://github.com/dev-sec/linux-patch-baseline
