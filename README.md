@@ -36,10 +36,20 @@ Verify the results
 bundle exec kitchen verify
 ```
 
+## Contributors + Kudos
+
+* Patrick Muench [atomic111](patrick.muench1111@gmail.com)
+* Christoph Hartmann [chris-rock](https://github.com/chris-rock)
+* Dominik Richter [arlimus](https://github.com/arlimus)
+
+## Contributing
+
+See [contributor guideline](CONTRIBUTING.md).
+
 ## License and Author
 
-* Author:: Patrick Münch <patrick.muench1111@gmail.com>
-* Author:: Hardening Framework
+* Author:: Patrick Muench <patrick.muench1111@gmail.com>
+* Author:: DevSec Hardening Framework
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
