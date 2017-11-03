@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-name 'update-linux'
+name 'linux-patch'
 maintainer 'Patrick Muench'
 maintainer_email 'patrick.muench1111@gmail.com'
 license 'Apache-2.0'
@@ -27,7 +27,7 @@ chef_version '>= 12.5' if respond_to?(:chef_version)
 
 supports 'ubuntu', '>= 12.04'
 
-recipe 'update-linux::default', 'Update Linux packages'
+recipe 'linux-patch::default', 'Update Linux packages'
 
-source_url 'https://github.com/atomic111/chef-update-linux'
-issues_url 'https://github.com/atomic111/chef-update-linux/issues'
+source_url 'https://github.com/atomic111/chef-linux-patch'
+issues_url 'https://github.com/atomic111/chef-linux-patch/issues'
