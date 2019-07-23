@@ -1,5 +1,7 @@
 # update-linux (Chef cookbook)
 
+This project is DEPRECATED and NO LONGER SUPPORTED. If you think this should really be supported, [reach out](https://dev-sec.io/community/) and we can discuss options.
+
 ## Description
 It takes the output from InSpec linux-patch-baseline and apply a update for outdated packages.
 
